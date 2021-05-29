@@ -1,0 +1,36 @@
+.place__description {
+  grid-area: "description";
+  color: #FFF;
+}
+
+.place__description :first-child {
+  margin:0;
+}
+
+@media screen and (max-width:767px){
+  .place__description {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+  .place__description {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px){
+  .place__description {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media screen and (min-width:1280px){
+  .place__description {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
