@@ -1,0 +1,12 @@
+
+.places__list {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.places__list :last-child {
+  margin-bottom: 0;
+}
+
